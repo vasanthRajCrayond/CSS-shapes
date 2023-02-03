@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+.circle{
+    width: 1vw;
+    height: 1vw;
+    background-color: #5ed3f3;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ellipse{
+    width:4vw ;
+    height:13vw;
+    border: 3px solid #5ed3f3;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.ellipse1{
+    rotate: 35deg;
+}
+.ellipse2 {
+    rotate: -35deg;
+}
+.ellipse3 {
+    rotate: 90deg;
+}
+
+.rotate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 15s linear infinite ;
+}
+
+@keyframes rotate{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+a{
+    translate: 540px 250px ;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+

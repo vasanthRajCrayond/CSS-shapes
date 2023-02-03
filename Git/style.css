@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.git-logo{
+    width: 180px;
+    height: 180px;
+    background-color: #f06033;
+    border-radius: 20px;
+    rotate: 40deg;
+}
+.line1{
+    width: 130px;
+    height: 14px;
+    background-color: white;
+    position: relative;
+    top:50px;
+}
+.line1::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left:30px;
+    top:-8px;
+}
+.line1::after {
+    content: "";
+    width: 30px;
+    top: -8px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    background-color: white;
+    
+}
+.line2{
+    width: 70px;
+    height: 14px;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    rotate: 50deg;
+
+}
+.line2::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 60px;
+    top: -8px;
+}
